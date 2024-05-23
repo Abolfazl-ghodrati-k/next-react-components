@@ -3,6 +3,7 @@ import { TreeMenuProvider } from "./context/TreeMenuContext";
 import { TreeMenuProps } from "./types";
 import { modifyDataForIcons } from "./helpers/modifyDataForIcons";
 import TreeMenuItem from "./components/TreeMenuItem";
+import './styles/main.css'
 
 const TreeMenu = ({
     data,

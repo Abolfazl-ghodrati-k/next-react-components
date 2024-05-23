@@ -9,6 +9,7 @@ export type TreeMenuItem = {
     icon?: ReactNode | string;
     hasPadding?: boolean;
     action?: () => void;
+    badge?: ReactNode
 };
 
 export type TreeMenuProps = {
